@@ -51,3 +51,7 @@ const groceryList = [
 test('Does our grocery list contain oreos', () => {
     expect(groceryList).toContain('Oreos');
 });
+
+test('Test', () => {
+    expect('thing').toMatch(/thin/);
+})
